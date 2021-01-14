@@ -102,7 +102,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
 				cotizacion: Number(resultado),
 				datos,
 			});
-		}, 0);
+		}, 1500);
 	};
 	return (
 		<form onSubmit={cotizarSeguro}>
